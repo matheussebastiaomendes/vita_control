@@ -1,0 +1,14 @@
+# .gitignore
+
+# Arquivos de segredos (NUNCA VÃO PARA O GITHUB)
+.env
+*.json
+
+# Arquivos e diretórios de ambiente/cache
+__pycache__/
+venv/
+.ipynb_checkpoints
+
+# Artefatos do OpenCV
+*.jpg
+etiqueta_recortada.jpg
